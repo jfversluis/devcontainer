@@ -1,0 +1,3 @@
+{
+   "postCreateCommand": "echo yay >> out.txt"
+}
