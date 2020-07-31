@@ -1,3 +1,3 @@
 {
-   "postCreateCommand": ". { iwr -useb https://gist.githubusercontent.com/jfversluis/30ac6ab3036baeedba3d6886211bd882/raw/afc3e2e4f500ab2b1a63d24c41668fb1dad0e508/setupdocker.ps1 } | iex"
+   "postCreateCommand": ". { iwr -useb https://gist.githubusercontent.com/jfversluis/30ac6ab3036baeedba3d6886211bd882/raw/afc3e2e4f500ab2b1a63d24c41668fb1dad0e508/setupdocker.ps1 } | iex; .\\vncserver.ps1"
 }
