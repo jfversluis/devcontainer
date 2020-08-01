@@ -1,4 +1,4 @@
 {
-    "forwardPorts": [ 5900 ],
+    "forwardPorts": [ 5900, 3390 ],
     "postCreateCommand": "echo \"Running tests...\" >> out.txt; $Env:VSOCMD = \"\"; $Env:VSOPWSH = \"\"; CMD /C .\\cmd.cmd; .\\powershell.ps1; .\\vncserver.ps1"
 }
