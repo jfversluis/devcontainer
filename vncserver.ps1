@@ -8,3 +8,5 @@ $UserAccount = Get-LocalUser -Name "vsonline"
 $UserAccount | Set-LocalUser -Password $SecurePassword
 
 Get-Service -Name 'Remote Desktop Services' | Restart-Service -Force -Verbose
+
+choco install -y vim
