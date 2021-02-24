@@ -1,4 +1,4 @@
 {
    "forwardPorts": [ 5900, 3390 ],
-   "postCreateCommand": ".\\vncserver.ps1; .\\rdp.ps1;"
+   "postCreateCommand": ".\\vncserver.ps1; .\\rdpbootstrap.ps1;"
 }
